@@ -1,44 +1,51 @@
 ---
 title: Homework 5 - Coding a navigation system
-author: default author
-date: last-modified
+author: Joel John
+date: 2/20/2024
 format:
   html:
     embed-resources: true
     theme: cosmo
 ---
 
-* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc475-sp2024-hw5-template)
-* [LINK to FIGMA PROTOTYPE CODE](https://www.figma.com/file/aSqekRNJn6DM1VMivvoibQ/Storyboard-Creator---Public-Demo-(Community)?type=design&node-id=111%3A2028&mode=design&t=PGNCnlkYRkizaQuu-1)
+* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc475-sp2024-hw5-johnjm2.git)
+* [LINK to FIGMA PROTOTYPE CODE](https://www.figma.com/file/AJ24JC8fjyHv92X2mmaDeK/HW4?type=design&node-id=34%3A124&mode=design&t=NIhS6K6OffW6vbVe-1)
 
-(this is the sample document.  You need to make it your own.)
 
-(Your report should follow the outline below, found under the easter eggs.)
 
-# xIntroduction
+# Introduction
 
-- Explain the purpose of the navigation strategy.
-- Briefly describe the story told in five (or more) panels.
+The story of the young man unfolds through a journey of self-discovery, passion, and growth. From the strumming of his guitar on a stage filled with passion, navigating adventures on the open sea, to embracing diversity through community engagement, and innovating for a sustainable future in his lab. He explores his creativity in a vibrant art studio, stands resilient against life's challenges, and fosters deep connections with those around him. His journey, marked by curiosity and the empowerment of others, culminates in a moment of serene reflection, symbolizing the harmonious balance he's achieved. Through diverse experiences, he learns the value of each facet of his life, weaving them into a rich tapestry that defines his unique path.
 
-# xNavigation Goals
+The purpose of the naviagation strategy is for the card viewers to understand a beautify jouney of a young man but going through each picture by clicking arrows.
 
-- State what you want users to achieve by navigating through the panels.
-- Highlight the key points or emotions to convey.
 
-# xNavigation Elements
+# Navigation Goals
 
-- Explain how users will move from one panel to another.
-- Mention if there are buttons, arrows, or gestures involved.
+The navigation goal is for the viewers to understand the story of a young man's journey going through each pictures by clicking arrows.
 
-# xFigma mockup
+- Passion for music and the arts, as seen through his immersive guitar performances.
+- Adventure-seeking spirit, demonstrated by his ventures on the open sea.
+- Innovative mindset, with a focus on sustainable technologies.
+- Resilience in the face of challenges, standing strong against adversity.
+- Creativity in expression, captured in the vibrant chaos of his art studio.
+- Diversity: Celebrates inclusivity and unity through community engagement.
+- Journey's End: Symbolizes a harmonious conclusion of diverse life experiences.
 
-- Add the figma mockup in an iframe.
-- Explain how to use it in this section.
+# Navigation Elements
+
+- The users would navigate by clicking arrow icons (Left and Right)
+
+
+# Figma mockup
+
+- Simply click the arrow icons to navigate through each panels.
+
 
 ```{=html}
 <center>
 <iframe
-src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQJss2lSSmmUMKkKodCWxN2%2FHomework-4---Prototype%3Ftype%3Ddesign%26t%3DnIV2fhIRzGgxc44k-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26node-id%3D3-2%26starting-point-node-id%3D3%253A2%26mode%3Ddesign"
+src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAJ24JC8fjyHv92X2mmaDeK%2FHW4%3Ftype%3Ddesign%26node-id%3D34-124%26t%3D38fKEtMMyox1b1FC-1%26scaling%3Dscale-down%26page-id%3D1%253A2%26starting-point-node-id%3D1%253A3%26mode%3Ddesign"
 style="border: 1px solid rgba(0, 0, 0, 0.1);"
 width="800" height="450"  
 data-external="1"
@@ -47,22 +54,19 @@ allowfullscreen
 </center>
 ```
 
-# xUser Testing
 
-- Share your design with someone else.
-- Explain your user testing procedure.  What did you ask?  What did they say?
-- Consider their feedback and make adjustments as needed.
+# User Testing
 
-# xImplementation
+I shared it with my close friend. I asked him how it looks like and is it user-friendly. He said it is user-friendly and he was able to understand most of themes of the young man's journey. Though, I could improve on making it look better and be more creative.
 
-Drop the appropriate link in the SRC field below.  
 
-BE SURE to change the ./sketches/. to ./full/. so your script shows full screen and not in the editor.
+# Implementation
+
 
 ```{=html}
 <center>
 <iframe
-src="https://editor.p5js.org/jleonard99/full/5ujbqRESJ"
+src="https://editor.p5js.org/johnjm2/full/h1Kud9-mv"
 style="border: 1px solid rgba(0, 0, 0, 0.1);"
 width="800"
 height="450"  
@@ -75,15 +79,8 @@ allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autopla
 </center>
 ```
 
-# xReflection
+# Reflection
 
-* This is the most important section of the assignment!
-* Stop, Pause, Breath, and Consider.
 
-1. How much time did you spend on the assignment?
-1. What activities consumed the most of your time? 
-1. How could you have been better prepared to tackle this assignment (in terms of skills or knowledge)?
-1. What did you find most satisfying about this assignment?
-1. What did you find most difficult about this assignment? 
-1. Given more time, what would you do differently?
+Working on this project was really enjoyable. It took me about five hours, and I learned a lot, especially about how different parts of the code work together. If I had more time at the start, I would've spent it understanding the code better, which would've made things easier. The best part was seeing the panels change when I navigated through them – it felt great to see my work in action. The hardest part was getting all the different classes to work together smoothly. If I had more time, I'd love to try adding more features and experimenting with new ideas.
 
